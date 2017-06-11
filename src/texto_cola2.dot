@@ -1,0 +1,5 @@
+digraph g{
+rankdir=LR
+<pila.Nodo_Pila instance at 0x1094cc440>[label =  <33 >, shape =box, style=filled, fillcolor=red] 
+<pila.Nodo_Pila instance at 0x1094cc440>->None
+}

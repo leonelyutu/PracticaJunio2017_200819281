@@ -1,0 +1,7 @@
+digraph g{
+rankdir=LR
+<cola.Nodo_Cola instance at 0x10c51b1b8>[label =  < 2 6 + >, shape =box, style=filled, fillcolor=red] 
+<cola.Nodo_Cola instance at 0x10c51b050>[label =  < 2 6 - >, shape =box, style=filled, fillcolor=red] 
+<cola.Nodo_Cola instance at 0x10c51b098>[label =  < 27 24 - 7 4 + * >, shape =box, style=filled, fillcolor=red] 
+<cola.Nodo_Cola instance at 0x10c51b1b8>-><cola.Nodo_Cola instance at 0x10c51b050><cola.Nodo_Cola instance at 0x10c51b050>-><cola.Nodo_Cola instance at 0x10c51b098><cola.Nodo_Cola instance at 0x10c51b098>->None
+}
