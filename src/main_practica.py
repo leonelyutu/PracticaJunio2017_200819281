@@ -1,4 +1,4 @@
-
+import os
 import menu
 import pila
 import matriz
@@ -131,6 +131,8 @@ class principal:
                                             for cad in cadena:
                                                 operaciones_cola.pila.push_num(cad)
                                                 operaciones_cola.pila.graficar()
+                                                os.system('/usr/local/bin/dot -Tpng -O texto_Pila.dot')
+                                                os.system('open texto_Pila.dot.png')
                                             print "Al operar la cadena: " + operaciones_cola.info +" : " +str(operaciones_cola.pila.top.info)
                                         else:
                                             print "No hay operaciones en la cola"
@@ -171,7 +173,8 @@ class principal:
                         ############# Inicio de acciones mostrar lista de usuarios  #################
                         if opcion == 4:
                             lista_usuarios.mostrar()
-                            
+                            os.system('/usr/local/bin/dot -Tpng -O texto.dot')
+                            os.system('open texto.dot.png')
                         ############# Final de acciones mostrar lista de usuarios ##########
 
                         ############### Inicio de acciones de Mostrar Cola #######################
@@ -182,6 +185,8 @@ class principal:
                                 
                                 contenedor_nodo.cola.mostrar()
                                 contenedor_nodo.cola.graficar()
+                                os.system('/usr/local/bin/dot -Tpng -O texto_cola.dot')
+                                os.system('open texto_cola.dot.png')
                         ###########Final de acciones de Mostrar Cola#########################
 
 

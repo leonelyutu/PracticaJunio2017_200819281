@@ -178,8 +178,6 @@ class Lista():
         
         cadena.write("}\n")
         cadena.close
-        ##sys('dot -Tpng -O hello.dot')
-        ##os.system('/Users/lio/Documents/dot -Tpng -O hello.dot')
-        ##execfile('/Users/lio/Documents/hello.dot')
         
         
+       
